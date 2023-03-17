@@ -1,0 +1,50 @@
+package encapsulation;
+
+public class BankAccount {
+
+	private double accountNumber;
+	private double balance;
+	private String ownerName;
+	private String address;
+	
+	public BankAccount(double accountNumber, double balance, String ownerName, String address) {
+		this.accountNumber = accountNumber;
+		this.balance = balance;
+		this.ownerName = ownerName;
+		this.address= address;
+	}
+
+	public double getAccountNumber() {
+		return accountNumber;
+	}
+
+	public void setAccountNumber(double accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+	public String getOwnerName() {
+		return ownerName;
+	}
+
+	public void setOwnerName(String ownerName) {
+		this.ownerName = ownerName;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+
+}

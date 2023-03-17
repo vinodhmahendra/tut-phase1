@@ -1,0 +1,10 @@
+package abstraction;
+
+public class Bank {
+	
+	private String title;
+	private String author;
+	private int publicationYear;
+	
+
+}

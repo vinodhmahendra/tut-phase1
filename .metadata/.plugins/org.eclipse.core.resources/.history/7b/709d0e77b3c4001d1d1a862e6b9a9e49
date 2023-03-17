@@ -1,0 +1,5 @@
+package polymophism;
+
+public class Dog extends Animal {
+
+}

@@ -1,0 +1,18 @@
+package encapsulation;
+
+public class BankAccount {
+
+	private double accountNumber;
+	private double balance;
+	private String ownerName;
+	private String address;
+	
+	public BankAccount(double accountNumber, double balance, String ownerName, String address) {
+		this.accountNumber = accountNumber;
+		this.balance = balance;
+		this.ownerName = ownerName;
+		this.address= address;
+	}
+	
+
+}

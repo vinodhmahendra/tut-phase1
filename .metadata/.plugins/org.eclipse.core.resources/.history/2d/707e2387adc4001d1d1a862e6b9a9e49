@@ -1,0 +1,6 @@
+package abstraction;
+
+public class Novel extends Book {
+
+	//constructors are not inherited
+}

@@ -1,0 +1,10 @@
+package encapsulation;
+
+public class BankAccountTester {
+
+	public static void main(String[] args) {
+		BankAccount accounte = new BankAccount("123456789", 1000, "vinodh", "225 5th Main");
+
+	}
+
+}

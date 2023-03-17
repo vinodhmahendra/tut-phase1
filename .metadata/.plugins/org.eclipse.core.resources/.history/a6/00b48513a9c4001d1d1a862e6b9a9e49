@@ -1,0 +1,13 @@
+package encapsulation;
+
+public class BankAccount {
+
+	private double accountNumber;
+	private double balance;
+	private String ownerName;
+	private String address;
+	
+	
+	
+
+}
