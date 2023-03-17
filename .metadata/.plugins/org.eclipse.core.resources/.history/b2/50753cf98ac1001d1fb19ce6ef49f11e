@@ -1,0 +1,11 @@
+
+public class PrimitiveCasting {
+
+	public static void main(String[] args) {
+		double productPrice = 19.99;
+		int totalCents = (int) (productPrice * 100);
+		System.out.println("Total price in cents: " + totalCents);
+
+	}
+
+}

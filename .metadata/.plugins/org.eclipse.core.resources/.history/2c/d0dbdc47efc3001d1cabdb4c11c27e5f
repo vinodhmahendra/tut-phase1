@@ -1,0 +1,11 @@
+package exceptions;
+
+public class BankAccount {
+	
+	private int balance;
+	
+	public BankAccount(int initBalance) {
+		balance = initBalance;
+	}
+
+}

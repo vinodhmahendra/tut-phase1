@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Lesson1/src/otherpackage&apos;&#x0A;- Original project: &apos;Lesson1&apos;&#x0A;- Destination element: &apos;Lesson1/src/otherpackage&apos;&#x0A;- Original elements:&#x0A;     samepackage.OtherClass.java&#x0A;     samepackage.SubClass.java" description="Copy compilation units" destination="/src&lt;otherpackage" element1="/src&lt;samepackage{OtherClass.java" element2="/src&lt;samepackage{SubClass.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1678706263719" units="2" version="1.0"/>
+</session>

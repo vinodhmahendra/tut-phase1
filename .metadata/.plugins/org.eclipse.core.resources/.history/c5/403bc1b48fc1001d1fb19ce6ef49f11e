@@ -1,0 +1,5 @@
+package samepackage;
+
+public class SuperClass {
+
+}

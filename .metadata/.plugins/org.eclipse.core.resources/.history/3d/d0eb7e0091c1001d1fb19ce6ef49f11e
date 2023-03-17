@@ -1,0 +1,9 @@
+package samepackage;
+
+public class SuperClass {
+	
+//	private String name;
+	
+	String name; // default == package
+
+}

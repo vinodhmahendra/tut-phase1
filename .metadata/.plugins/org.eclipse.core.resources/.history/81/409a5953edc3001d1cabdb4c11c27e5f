@@ -1,0 +1,36 @@
+package threads;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+public class CallableExample {
+	
+	public static void main(String[] args) {
+		
+		ExecutorService executer = Executors.newSingleThreadExecutor();
+		
+		Callable<String> task = new Callable<String>() {
+			
+			@Override
+			public String call() throws Exception {
+				Thread.sleep(5000);
+				return "Hello World";
+			}
+		};
+		
+		Future<String> future = executer.submit(task);
+		
+		// do some work while waiting for the result
+		try {
+			String result = future.get();
+			System.out.println(result);
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		executer.shutdown();
+	}
+
+}

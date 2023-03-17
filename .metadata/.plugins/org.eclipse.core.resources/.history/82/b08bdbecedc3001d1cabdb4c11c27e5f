@@ -1,0 +1,15 @@
+package exceptions;
+
+public class ExceptionHandling {
+	
+	
+	public static void main(String[] args) {
+		
+		int result = divide ( 10 , 0);
+	}
+
+	private static int divide(int i, int j) {
+		return i/j;
+	}
+
+}

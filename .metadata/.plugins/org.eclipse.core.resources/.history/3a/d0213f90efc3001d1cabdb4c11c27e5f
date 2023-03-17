@@ -1,0 +1,14 @@
+package exceptions;
+
+public class BankAccount {
+	
+	private int balance;
+	
+	public BankAccount(int initBalance) {
+		balance = initBalance;
+	}
+
+	public void deposit(int amount) {
+		balance += amount;
+	}
+}

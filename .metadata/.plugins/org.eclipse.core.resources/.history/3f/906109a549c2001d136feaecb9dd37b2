@@ -1,0 +1,11 @@
+Java Methods
+--------------------------------------------------------------
+syntax :
+
+<modifier>* <return-type> method_name() {
+ //statements
+}
+
+<modifier>* <return-type> method_name(<arguments>*) {
+ //statements
+}

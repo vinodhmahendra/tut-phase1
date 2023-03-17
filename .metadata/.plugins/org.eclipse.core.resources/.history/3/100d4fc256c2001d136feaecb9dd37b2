@@ -1,0 +1,23 @@
+package collections;
+
+import java.util.HashMap;
+
+public class MapExample {
+
+	public static void main(String[] args) {
+		HashMap<String, Integer> map = new HashMap<>();
+		
+		
+		map.put("apple", 1);
+		map.put("banana", 2);
+		map.put("cherry", 3);
+		
+		System.out.println("value of key banana : " + map.get("banana"));
+		
+		map.put("banana", 4);
+		System.out.println("Updated map : " + map);
+
+		
+	}
+
+}

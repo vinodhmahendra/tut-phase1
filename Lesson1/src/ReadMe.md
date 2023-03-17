@@ -1,0 +1,37 @@
+SubClassing
+
+
+public class SuperClass {
+
+	 // members : attributes or methods
+}
+
+
+public class SubClass extends SuperClass {
+    // access the members from SuperClass?
+}
+
+
+public class OtherClass {
+	// access the members from SuperClass?
+}
+
+
+------------------------------------------------------
+
+Eight Primitive Data Types
+--------------------------------------------------------------
+byte  -- 8 bit
+
+short --- 16 bit
+
+int ---- 32 bit
+
+long ---- 64 bits
+
+
+float -- 32 bit
+double -- 64 bits IEE 754
+
+boolean --- true/false
+char --- 16 bit

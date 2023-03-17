@@ -1,0 +1,25 @@
+package collections;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class ListExample {
+
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>();
+		
+		list.add("apple");
+		list.add("banana");
+		list.add("cherry");
+		list.add("durian");
+		
+//		list.add(1); // compiler error
+		
+		System.out.println("First Element: " + list.get(0));
+		System.out.println("Third Element: " + list.get(2));
+		
+		list.set(1, "blueberry");
+		System.out.println("updated list : " +list);
+	}
+
+}

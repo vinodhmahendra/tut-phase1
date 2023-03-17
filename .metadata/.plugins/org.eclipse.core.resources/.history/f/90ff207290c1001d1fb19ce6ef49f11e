@@ -1,0 +1,9 @@
+package samepackage;
+
+public class SubClass extends SuperClass {
+
+	public void accessPrivateMember() {
+		SuperClass s = new SuperClass();
+		s.name = "vinodh";
+	}
+}

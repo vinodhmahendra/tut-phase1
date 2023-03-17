@@ -1,0 +1,12 @@
+package methods;
+
+public class TestMethod {
+	
+	
+	public double calculateInterest(double principalAmount ,double interestRate,int duration) {
+		double interestEarned = (principalAmount * interestRate * duration)/100;
+		return interestEarned;
+		
+	}
+
+}

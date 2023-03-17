@@ -1,0 +1,16 @@
+package serialization;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+public class DeSerializationExample {
+
+	public static void main(String[] args) {
+		Person deserializedPerson = null;
+		try {
+			FileInputStream fileIn = new FileInputStream("person.ser");
+			ObjectInputStream in new ObjectInputStream(fileIn);
+		}
+	}
+
+}

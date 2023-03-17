@@ -1,0 +1,17 @@
+
+public class PrimitiveTypes {
+
+	public static void main(String[] args) {
+		byte age = 30;
+		short temperature = -10;
+		int numberOfStudents = 10;
+		long unixTimestamp = 162247326L;
+		
+		float stockPrice = 1234.56f;
+		double distance  = 4567.89;
+		boolean isLoggedIn = true;
+		char grade='A';
+
+	}
+
+}
